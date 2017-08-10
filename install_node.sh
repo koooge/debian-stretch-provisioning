@@ -18,8 +18,13 @@ install_node() {
   nvm use ${NODE_VERSION}
 }
 
+install_npm_global() {
+  npm install -g aws-sdk
+}
+
 install_nvm
 install_node
+install_npm_global
 
 nvm version
 node -v
