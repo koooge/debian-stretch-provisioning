@@ -2,7 +2,7 @@
 
 # Usage `./install_golang.sh && source ~/.bash_profile`
 
-GO_VERSION="1.8.3"
+GO_VERSION="1.9.2"
 
 GO_URL=https://storage.googleapis.com/golang/go${GO_VERSION}.linux-amd64.tar.gz
 
